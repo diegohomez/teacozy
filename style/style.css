@@ -1,0 +1,177 @@
+*{
+  opacity: 0.9;
+  color: seashell;
+  background-color: black;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 10px;
+
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+
+}
+
+h2, h4{
+  margin: 0;
+  padding: 10px;
+}
+
+h2{
+  display: block;
+  font-weight: bold;
+  font-size: 1.5em;
+ }
+
+h4{
+  display: block;
+  font-weight: bold;
+}
+
+nav span{
+  display: inline-block;
+  padding: 20px 10px;
+  text-decoration: underline;
+  color: seashell;
+  font-family: Helvetica;
+  font-size: 22px;
+
+}
+
+header{
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  color: seashell;
+}
+
+
+body {
+    margin: 0;
+    font-family: "Helvetica", sans-serif;
+    color: seashell;
+    font-size: 22px;
+    text-align: center;
+     }
+
+#mission{
+  background-image: url(file:///Users/diegohomez/Documents/projects/teacozy/style/images/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+.flex-container{
+     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+ }
+
+.content{
+  width: 1200px;
+  display: flex;
+flex-direction: column;
+  align-items: center;
+}
+
+div{
+  display:block;
+}
+
+#store{
+  padding-top: 70px;
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item{
+padding: 5px;
+display: block;
+}
+
+.item img{
+    height: 200px;
+    margin: 10px;
+    display: block;
+   }
+
+.item span{
+    display: block;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+   }
+#locations{
+  background-image: url(file:///Users/diegohomez/Documents/projects/teacozy/style/images/img-locations-background.jpg);
+  height: 500px;
+  padding-top: 70px;
+}
+   #locations .flex-container{
+     margin: auto;
+     width: 1100px;
+   }
+
+.flex-container .locations{
+  padding-top: 5px;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.location{
+opacity: 1;
+background-color: black;
+flex-basis: 280px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 10px;
+margin: 5px 20px;
+ }
+
+
+
+
+footer {
+    text-align: left;
+    padding-left: 20px;
+     }
+
+h5 {
+    display: block;
+    font-size: 0.83em;
+    font-weight: bold;
+     }
+
+#contact{
+    height: 200px;
+}
+
+body{
+margin: 0;
+font-family: "Helvetica", sans-serif;
+color: seashell;
+font-size: 22px;
+text-align: center;
+ }
