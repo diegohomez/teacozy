@@ -1,7 +1,7 @@
 *{
   opacity: 0.9;
   color: seashell;
-  background-color: black;
+
 }
 .logo{
   display: flex;
@@ -63,6 +63,7 @@ body {
     color: seashell;
     font-size: 22px;
     text-align: center;
+    background-color:black;
      }
 
 #mission{
@@ -73,6 +74,7 @@ body {
   justify-content: center;
   flex-direction: column;
   margin: auto;
+
 }
 
 .flex-container{
@@ -86,6 +88,7 @@ body {
   display: flex;
 flex-direction: column;
   align-items: center;
+  background-color: black;
 }
 
 div{
@@ -122,7 +125,12 @@ display: block;
 #locations{
   background-image: url(file:///Users/diegohomez/Documents/projects/teacozy/style/images/img-locations-background.jpg);
   height: 500px;
+  width: 1200px;
   padding-top: 70px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
 }
    #locations .flex-container{
      margin: auto;
